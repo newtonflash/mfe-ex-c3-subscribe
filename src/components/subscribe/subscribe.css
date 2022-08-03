@@ -1,0 +1,27 @@
+.subscribe-container {
+  background: #fddddd;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-radio-container {
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.subscribe-radio-container,
+input[type="radio"] {
+  height: 18px;
+  width: 18px;
+}
+
+.subscribe-radio-container,
+label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
